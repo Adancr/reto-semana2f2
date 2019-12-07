@@ -2,8 +2,15 @@
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
-  /* font-weight: 700; */
-}
+  }
+
+  section h2 {
+    text-align: center;
+  }
+
+  section {
+    padding: 0 3  0px;
+  }
 
 /* header  */
 .header {
@@ -17,4 +24,45 @@
   text-align: center;
   font-size: 70px;
 }
+
+/* main  */
+main {
+  padding: 0 30px;
+}
+
+/* about */
+
+.about {
+  background-color: #7299FE;
+  color: white;
+}
+/* courses */
+.course {
+  background-color: #9122FF;
+  color: #ffffff;
+}
+
+.list-courses {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.b_back {
+  width: 400px;
+  height: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+.b_front {
+  width: 300px;
+  height: 20px;
+  background-color: #57EFF9;
+  border-radius: 10px;
+}
+
+/* proyects */
+.proyects {
+  margin: auto;
+}
+
 
