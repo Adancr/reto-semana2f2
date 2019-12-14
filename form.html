@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulario web</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .container-form {
+  display: flex;
+  width: 400px;
+}
+
+input {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h3 {
+    display: block;
+}
+    </style>
+    
+</head>
+<body>
+   
+    <section class="container-form">
+        
+        <form action="">
+            <h3>Contactanos</h3>
+            <input type="text" id="name" placeholder="Nombre" required pattern="[A-Za-z]+">
+            <input type="text" id="last-name" placeholder="Apellido" required pattern="[A-Za-z]+">
+            <input type="number" min="18" max="80" placeholder="Edad"  id="age">
+            <label for="">
+                M 
+                <input type="radio" name="sex" id="sex-m" required>
+            </label>
+            <label for="">
+                F 
+                <input type="radio" name="sex" id="sex-f" required>
+            </label>
+            <input type="text" required placeholder="DNI" minlength="8"  id="dni pattern="[A-Za-z]+">
+            <input type="email" required placeholder="Email" id="email">
+            <button>Enviar</button>
+    
+        </form>
+
+    </section>
+</body>
+</html>
