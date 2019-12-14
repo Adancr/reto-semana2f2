@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Reto semana 2</title>
+  <link rel="stylesheet" href="css/">
   <link rel="stylesheet" href="css/main.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
 </head>
@@ -100,9 +101,20 @@
   <!-- footer  -->
   </main>
   <footer>
-    <h2>Contacto</h2>
-    <Form></Form>
-    <button>enviar</button>
+    <section>
+      <form action="">
+        <h2>Contacto</h2>
+        <input type="text" id="name" placeholder="Nombre" required pattern="[A-Za-z]+">
+            <input type="text" id="last-name" placeholder="Apellido" required pattern="[A-Za-z]+">
+            <input type="email" required    placeholder="Email" id="email">
+            <input type="number" required    placeholder="Telefono" id="phone">
+            
+            <input type="text" required placeholder="DNI" minlength="8"  id="dni pattern="[A-Za-z]+">
+            <button>Enviar</button>
+
+      </form>
+
+    </section>
   </footer>
 </body>
 </html>
