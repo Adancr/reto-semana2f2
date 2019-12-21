@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1,
@@ -95,11 +96,13 @@ section h2 {
     width: 90%;
     margin: auto;
     grid-gap: 0 2rem;
-    padding: 1rem 0;
+    padding-bottom: 4rem;
 }
 
 .list-courses h3 {
     padding: .3rem 0;
+    font-size: 1.4rem;
+    padding-top: 1.4rem;
 }
 
 .b_back {
@@ -125,7 +128,7 @@ section h2 {
 
 .proyects div {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(146px, 1fr));
     /* grid-template: repeat(2, 1fr)/repeat(4, 1fr); */
     grid-gap: 1rem;
     /* display: flex; */
@@ -149,7 +152,8 @@ section h2 {
     display: grid;
     width: 90%;
     margin: auto;
-    padding: 3rem 0;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     grid-gap: 1rem;
     align-items: center;
